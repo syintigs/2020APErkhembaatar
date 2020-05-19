@@ -1,0 +1,1985 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "English20Time Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Mac",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"IOS",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"Linux",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"LinuxAArch64",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"TVOS",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time XXX Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time XXX DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time XXX Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time XXX Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"Shipping",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20Time XXX Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20Time XXX Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20Time",
+				"XXX",
+				"Test",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Linux",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Linux",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20TimeEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Linux",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20TimeEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Linux",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Linux",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20TimeEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Linux",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Mac",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Mac",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20TimeEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Mac",
+				"Debug",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Mac",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Mac",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20TimeEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Mac",
+				"DebugGame",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Mac",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Mac",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"English20TimeEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "English20TimeEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"English20TimeEditor",
+				"Mac",
+				"Development",
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		}
+	]
+}

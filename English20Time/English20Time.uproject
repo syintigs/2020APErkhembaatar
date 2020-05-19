@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1E4CA1ED-88FC-4B82-99CD-1CB6FEC6C3D0}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "English20Time",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

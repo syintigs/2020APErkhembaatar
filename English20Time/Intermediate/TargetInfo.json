@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "English20TimeEditor",
+			"Path": "/home/jc/2020APErkhembaatar/English20Time/Source/English20TimeEditor.Target.cs",
+			"Type": "Editor"
+		},
+		{
+			"Name": "English20Time",
+			"Path": "/home/jc/2020APErkhembaatar/English20Time/Source/English20Time.Target.cs",
+			"Type": "Game"
+		}
+	]
+}

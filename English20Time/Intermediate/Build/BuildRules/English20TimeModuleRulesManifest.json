@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/English20Time.Build.cs",
+		"/home/jc/2020APErkhembaatar/English20Time/Source/English20TimeEditor.Target.cs",
+		"/home/jc/2020APErkhembaatar/English20Time/Source/English20Time.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}

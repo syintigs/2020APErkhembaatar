@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "English20Time (Debug)",
+			"request": "launch",
+			"preLaunchTask": "English20Time Linux Debug Build",
+			"program": "/home/jc/2020APErkhembaatar/English20Time/Binaries/Linux/English20Time-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "English20Time (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "English20Time Linux DebugGame Build",
+			"program": "/home/jc/2020APErkhembaatar/English20Time/Binaries/Linux/English20Time-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "English20Time (Development)",
+			"request": "launch",
+			"preLaunchTask": "English20Time Linux Development Build",
+			"program": "/home/jc/2020APErkhembaatar/English20Time/Binaries/Linux/English20Time",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "English20Time (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "English20Time Linux Shipping Build",
+			"program": "/home/jc/2020APErkhembaatar/English20Time/Binaries/Linux/English20Time-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "English20Time (Test)",
+			"request": "launch",
+			"preLaunchTask": "English20Time Linux Test Build",
+			"program": "/home/jc/2020APErkhembaatar/English20Time/Binaries/Linux/English20Time-Linux-Test",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "English20TimeEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "English20TimeEditor Linux Debug Build",
+			"program": "/opt/unreal-engine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "English20TimeEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "English20TimeEditor Linux DebugGame Build",
+			"program": "/opt/unreal-engine/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "English20TimeEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "English20TimeEditor Linux Development Build",
+			"program": "/opt/unreal-engine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/opt/unreal-engine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/opt/unreal-engine"
+		}
+	]
+}
