@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="DatasmithFacadeCSharp">
+  <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/DatasmithFacadeCSharp.Target.cs" />
+  <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/DatasmithFacadeCSharp.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeCSharp.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeCSharp.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeDLL.cpp" />
+  </VirtualDirectory>
+  <VirtualDirectory Name="Public">
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/DatasmithFacadeCSharp.cs" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/DatasmithFacadeCSharpPINVOKE.cs" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActor.cs" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorCamera.cs" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorLight.cs" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorMesh.cs" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeElement.cs" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLog.cs" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterial.cs" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMesh.cs" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeScene.cs" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithFacadeCSharp-Linux-Debug" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithFacadeCSharp-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithFacadeCSharp-Linux-DebugGame" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithFacadeCSharp-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithFacadeCSharp" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithFacadeCSharp" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithFacadeCSharp-Linux-Shipping" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithFacadeCSharp-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithFacadeCSharp-Linux-Test" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithFacadeCSharp-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe DatasmithFacadeCSharp Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="English20TimeEditor">
+  <File Name="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" />
+  <VirtualDirectory Name="Source">
+    <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time.Target.cs" />
+    <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20TimeEditor.Target.cs" />
+    <VirtualDirectory Name="English20Time">
+      <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/English20Time.Build.cs" />
+      <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/English20Time.cpp" />
+      <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/English20Time.h" />
+      <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/English20TimeGameModeBase.cpp" />
+      <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/English20TimeGameModeBase.h" />
+      <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/MyCharacter.cpp" />
+      <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/MyCharacter.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Config">
+    <File Name="/home/jc/2020APErkhembaatar/English20Time/Config/DefaultEditor.ini" />
+    <File Name="/home/jc/2020APErkhembaatar/English20Time/Config/DefaultEngine.ini" />
+    <File Name="/home/jc/2020APErkhembaatar/English20Time/Config/DefaultGame.ini" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General CommandArguments="&quot;/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject&quot; -game" WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <General CommandArguments="&quot;/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject&quot; -game" WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe English20TimeEditor Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe English20TimeEditor Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe English20TimeEditor Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe English20TimeEditor Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments="&quot;/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject&quot; -game" WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject&quot; -game" WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe English20TimeEditor Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe English20TimeEditor Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe English20TimeEditor Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe English20TimeEditor Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General CommandArguments="&quot;/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject&quot; -game" WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject&quot; -game" WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe English20TimeEditor Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe English20TimeEditor Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe English20TimeEditor Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe English20TimeEditor Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General CommandArguments="&quot;/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject&quot; -game" WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <General CommandArguments="&quot;/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject&quot; -game" WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe English20TimeEditor Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe English20TimeEditor Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe English20TimeEditor Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe English20TimeEditor Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General CommandArguments="&quot;/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject&quot; -game" WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <General CommandArguments="&quot;/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject&quot; -game" WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe English20TimeEditor Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe English20TimeEditor Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe English20TimeEditor Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe English20TimeEditor Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

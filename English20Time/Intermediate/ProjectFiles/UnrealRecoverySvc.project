@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="UnrealRecoverySvc">
+  <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/UnrealRecoverySvc.Target.cs" />
+  <VirtualDirectory Name="Config">
+    <File Name="/home/jc/UnrealEngine/Engine/Programs/UnrealRecoverySvc/Config/DefaultEngine.ini" />
+  </VirtualDirectory>
+  <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/UnrealRecoverySvc.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/Private/UnrealRecoverySvc.cpp" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-Debug" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe UnrealRecoverySvc Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-DebugGame" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe UnrealRecoverySvc Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe UnrealRecoverySvc Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-Shipping" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe UnrealRecoverySvc Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-Test" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealRecoverySvc-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealRecoverySvc Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe UnrealRecoverySvc Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

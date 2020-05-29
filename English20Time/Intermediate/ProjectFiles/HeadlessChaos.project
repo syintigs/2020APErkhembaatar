@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="HeadlessChaos">
+  <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/HeadlessChaos.Target.cs" />
+  <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/HeadlessChaos.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosApp.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosCollisionConstraints.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestBP.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestBroadphase.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestCloth.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestClustering.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestCollisions.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestConstraintHandle.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestConstraints.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestDenseMatrix.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestDirtyParticle.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestEPA.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestForces.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestGJK.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestGJKDistance.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestGraph.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestHandles.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestHeightfield.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestImplicits.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestJointSolver.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestJointUtilities.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestJoints.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestMassProperties.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestMath.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestMinEvolution.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestMostOpposing.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestMultiply.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestParticleHandle.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestRaycast.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestRotation.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestSerialization.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestSim.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestSolverCommandList.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestSolverProxies.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestSpatialHashing.cpp" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Private/HeadlessChaosTestUtility.cpp" />
+  </VirtualDirectory>
+  <VirtualDirectory Name="Public">
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaos.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosApp.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosCollisionConstraints.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestBP.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestBroadphase.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestCloth.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestClustering.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestCollisions.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestConstraints.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestEPA.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestForces.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestGJK.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestHandles.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestImplicits.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestMostOpposing.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestParticleHandle.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestRaycast.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestSerialization.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestSolverCommandList.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestSolverProxies.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestSpatialHashing.h" />
+    <File Name="/home/jc/UnrealEngine/Engine/Source/Programs/HeadlessChaos/Public/HeadlessChaosTestUtility.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./HeadlessChaos-Linux-Debug" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./HeadlessChaos-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe HeadlessChaos Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe HeadlessChaos Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe HeadlessChaos Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe HeadlessChaos Linux Debug -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./HeadlessChaos-Linux-DebugGame" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./HeadlessChaos-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe HeadlessChaos Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe HeadlessChaos Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe HeadlessChaos Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe HeadlessChaos Linux DebugGame -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./HeadlessChaos" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./HeadlessChaos" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe HeadlessChaos Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe HeadlessChaos Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe HeadlessChaos Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe HeadlessChaos Linux Development -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./HeadlessChaos-Linux-Shipping" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./HeadlessChaos-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe HeadlessChaos Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe HeadlessChaos Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe HeadlessChaos Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe HeadlessChaos Linux Shipping -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./HeadlessChaos-Linux-Test" />
+      <General WorkingDirectory="/home/jc/UnrealEngine/Engine/Binaries/Linux" Command="./HeadlessChaos-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jc/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe HeadlessChaos Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe HeadlessChaos Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe HeadlessChaos Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject" -clean
+mono UnrealBuildTool.exe HeadlessChaos Linux Test -project="/home/jc/2020APErkhembaatar/English20Time/English20Time.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>
