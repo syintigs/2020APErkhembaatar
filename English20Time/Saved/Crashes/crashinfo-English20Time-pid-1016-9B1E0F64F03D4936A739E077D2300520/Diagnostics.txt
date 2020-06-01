@@ -1,0 +1,38 @@
+Generating report for minidump
+
+Application version 4.25.1.0
+ ... built from changelist 0
+
+OS version Linux 5.6.14-arch1-1 (network name: JC)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000018"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-English20Time-2054.so!AMyCharacter::CheckRay() [/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/MyCharacter.cpp:62]
+libUE4Editor-Engine.so!AActor::DispatchBeginPlay(bool) [/home/jc/UnrealEngine/Engine/Source/Runtime/Engine/Private/Actor.cpp:3395]
+libUE4Editor-Engine.so!AWorldSettings::NotifyBeginPlay() [/home/jc/UnrealEngine/Engine/Source/Runtime/Engine/Private/WorldSettings.cpp:246]
+libUE4Editor-Engine.so!AGameStateBase::HandleBeginPlay() [/home/jc/UnrealEngine/Engine/Source/Runtime/Engine/Private/GameStateBase.cpp:204]
+libUE4Editor-Engine.so!UWorld::BeginPlay() [/home/jc/UnrealEngine/Engine/Source/Runtime/Engine/Private/World.cpp:4183]
+libUE4Editor-Engine.so!UGameInstance::StartPlayInEditorGameInstance(ULocalPlayer*, FGameInstancePIEParameters const&) [/home/jc/UnrealEngine/Engine/Source/Runtime/Engine/Private/GameInstance.cpp:478]
+libUE4Editor-UnrealEd.so!UEditorEngine::CreateInnerProcessPIEGameInstance(FRequestPlaySessionParams&, FGameInstancePIEParameters const&, int) [/home/jc/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:2793]
+libUE4Editor-UnrealEd.so!UEditorEngine::OnLoginPIEComplete_Deferred(int, bool, FString, FPieLoginStruct) [/home/jc/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:1471]
+libUE4Editor-UnrealEd.so!UEditorEngine::CreateNewPlayInEditorInstance(FRequestPlaySessionParams&, bool, EPlayNetMode) [/home/jc/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:1703]
+libUE4Editor-UnrealEd.so!UEditorEngine::StartPlayInEditorSession(FRequestPlaySessionParams&) [/home/jc/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:2575]
+libUE4Editor-UnrealEd.so!UEditorEngine::StartQueuedPlaySessionRequestImpl() [/home/jc/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:1076]
+libUE4Editor-UnrealEd.so!UEditorEngine::StartQueuedPlaySessionRequest() [/home/jc/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:1012]
+libUE4Editor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/home/jc/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/EditorEngine.cpp:1610]
+libUE4Editor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/home/jc/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/UnrealEdEngine.cpp:411]
+UE4Editor!FEngineLoop::Tick() [/home/jc/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:4844]
+UE4Editor!GuardedMain(char16_t const*) [/home/jc/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:171]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/jc/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+libc.so.6!__libc_start_main(+0xf1)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

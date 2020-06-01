@@ -12,12 +12,15 @@
       <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/English20TimeGameModeBase.h" />
       <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/MyCharacter.cpp" />
       <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/MyCharacter.h" />
+      <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/UMGPlayerController.cpp" />
+      <File Name="/home/jc/2020APErkhembaatar/English20Time/Source/English20Time/UMGPlayerController.h" />
     </VirtualDirectory>
   </VirtualDirectory>
   <VirtualDirectory Name="Config">
     <File Name="/home/jc/2020APErkhembaatar/English20Time/Config/DefaultEditor.ini" />
     <File Name="/home/jc/2020APErkhembaatar/English20Time/Config/DefaultEngine.ini" />
     <File Name="/home/jc/2020APErkhembaatar/English20Time/Config/DefaultGame.ini" />
+    <File Name="/home/jc/2020APErkhembaatar/English20Time/Config/DefaultInput.ini" />
   </VirtualDirectory>
   <Settings>
     <Configuration Name="Debug">

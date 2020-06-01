@@ -11907,5 +11907,6 @@ SOURCES += \
 	"$$English20TimeRootPath/Source/English20Time/English20Time.cpp" \
 	"$$English20TimeRootPath/Source/English20Time/English20TimeGameModeBase.cpp" \
 	"$$English20TimeRootPath/Source/English20Time/MyCharacter.cpp" \
+	"$$English20TimeRootPath/Source/English20Time/UMGPlayerController.cpp" \
  
 

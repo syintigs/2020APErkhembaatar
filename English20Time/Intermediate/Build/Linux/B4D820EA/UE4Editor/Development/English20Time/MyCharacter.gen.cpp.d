@@ -1478,6 +1478,14 @@
   Runtime/CoreUObject/Public/UObject/TextProperty.h \
   Runtime/CoreUObject/Public/UObject/FieldPathProperty.h \
   /home/jc/2020APErkhembaatar/English20Time/Source/English20Time/MyCharacter.h \
+  Runtime/Engine/Classes/Camera/CameraComponent.h \
+  Runtime/CoreUObject/Public/UObject/ScriptInterface.h \
+  Runtime/Engine/Classes/Components/SceneComponent.h \
+  Runtime/Engine/Classes/Engine/BlendableInterface.h \
+  Runtime/Engine/Classes/Engine/Scene.h \
+  Runtime/Engine/Classes/Camera/CameraTypes.h \
+  ../Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine/CameraComponent.generated.h \
+  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
   Runtime/Engine/Classes/GameFramework/Character.h \
   Runtime/CoreUObject/Public/Templates/SubclassOf.h \
   Runtime/CoreUObject/Public/UObject/CoreNet.h \
@@ -1489,6 +1497,5 @@
   Runtime/Engine/Classes/Animation/AnimationAsset.h \
   Runtime/Engine/Classes/GameFramework/RootMotionSource.h \
   ../Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine/RootMotionSource.generated.h \
-  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
   ../Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine/Character.generated.h \
   /home/jc/2020APErkhembaatar/English20Time/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/English20Time/MyCharacter.generated.h

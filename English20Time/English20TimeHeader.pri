@@ -15873,5 +15873,6 @@ HEADERS += \
 	"$$English20TimeRootPath/Source/English20Time/English20Time.h" \
 	"$$English20TimeRootPath/Source/English20Time/English20TimeGameModeBase.h" \
 	"$$English20TimeRootPath/Source/English20Time/MyCharacter.h" \
+	"$$English20TimeRootPath/Source/English20Time/UMGPlayerController.h" \
  
 

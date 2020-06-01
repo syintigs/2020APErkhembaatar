@@ -1,5 +1,6 @@
 {
 	"files.exclude": {
+		"/home/jc/2020APErkhembaatar/English20Time/.kdev4": true,
 		"/home/jc/2020APErkhembaatar/English20Time/.vscode": true,
 		"/home/jc/2020APErkhembaatar/English20Time/Content": true,
 		"/home/jc/2020APErkhembaatar/English20Time/DerivedDataCache": true,

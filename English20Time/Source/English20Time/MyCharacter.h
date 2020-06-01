@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Camera/CameraComponent.h" 
 #include "GameFramework/Character.h"
 #include "MyCharacter.generated.h"
 
@@ -38,6 +39,18 @@ public:
 	UFUNCTION()
 	void StopJump();
 
+	UFUNCTION()
+	void CheckRay();
+	UPROPERTY()
+	UCameraComponent* camera;
+
+	UPROPERTY()
+	int debug=false;
 	
+	UFUNCTION()
+	void StartDebug();
+
+	UFUNCTION()
+	void StopDebug();
 	
 };
