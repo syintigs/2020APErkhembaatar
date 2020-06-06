@@ -1,7 +1,7 @@
 {
-	"BuildId": "60a92802-17a9-4b01-b8f4-83dc82398746",
+	"BuildId": "1605bcb3-2ac9-4b53-b9ef-eaca75d3e2cf",
 	"Modules": 
 	{
-		"English20Time": "libUE4Editor-English20Time-1516.so"
+		"English20Time": "libUE4Editor-English20Time.so"
 	}
 }
